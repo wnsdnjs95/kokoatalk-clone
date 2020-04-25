@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Chat | Kakao Clone</title>
   </head>
-  <body>
+  <body class="chats-body">
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">22:01</span>
@@ -23,7 +23,7 @@
         <i class="fas fa-battery-full"></i>
       </div>
     </div>
-    <header class="header">
+    <header class="header chat-fixed">
       <div class="header__header-column">
         <a href="index.html" class="header__back-btn">
           <i class="fas fa-arrow-left"></i>
@@ -39,7 +39,7 @@
         </span>
       </div>
     </header>
-    <main class="chat">
+    <main class="chat-screen">
       <ul class="chat__messages">
         <span class="chat__timestamp">금요일, 4월 20일, 2020</span>
         <li class="incoming-message message">
@@ -66,11 +66,11 @@
       <div class="chat_write-column">
         <i class="far fa-plus-square"></i>
       </div>
-      <div class="chat_write-column">
+      <div class="chat__write-column">
         <input type="text" placeholder="Send message" /
         class="chat__write-input">
       </div>
-      <div class="chat_write-column">
+      <div class="chat__write-column">
         <span class="chat__write-icon">
           <i class="far fa-smile-wink"></i>
         </span>
