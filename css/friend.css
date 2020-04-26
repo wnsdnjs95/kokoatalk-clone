@@ -1,11 +1,22 @@
+.friend-body {
+  min-height: 1500px;
+}
+
 .friend {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 25px;
 }
 
 .friend .friend__avatar {
   width: 50px;
+  border-radius: 38%;
+}
+
+.friend .friend__avatar-2 {
+  width: 50px;
+  height: 50px;
   border-radius: 38%;
 }
 
@@ -22,7 +33,8 @@
   align-items: center;
 }
 
-.friend .friend__avatar {
+.friend .friend__avatar,
+.friend .friend__avatar-2 {
   margin-right: 15px;
 }
 
@@ -70,4 +82,5 @@
   align-items: center;
   background-color: #f5f5f5;
   border-radius: 5px;
+  cursor: pointer;
 }

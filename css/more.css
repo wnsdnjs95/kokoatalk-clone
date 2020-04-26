@@ -26,25 +26,27 @@
 }
 
 .more .more__title {
-  opacity: 0.8;
   margin-bottom: 20px;
+  font-weight: 700;
 }
 
 .suggestion .suggestion__title {
-  font-size: 12px;
+  font-size: 14px;
   margin-top: 15px;
 }
 
 .suggestion .suggestion-icon {
   background-color: #fce006;
   padding: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border-radius: 10px;
 }
 
 .suggestion-icon i {
   font-size: 28px;
   color: white;
+}
+
+.more .more__suggestions-list {
+  display: flex;
+  justify-content: space-between;
 }
