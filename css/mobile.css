@@ -23,3 +23,8 @@
     display: flex;
   }
 }
+/* 최소 너비 600px일때, .bigScreen을 display:flex로 바꾼다
+    ( 조건문 ) {
+        실행문
+    }
+*/
